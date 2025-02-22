@@ -1,0 +1,64 @@
+.dice-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.dice-position-1{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: red;
+}
+.dice-position-2{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.dice-position-3{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    rotate: 45deg;
+}
+.dice-position-4{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.dice-position-5{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dice-position-6{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: red;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

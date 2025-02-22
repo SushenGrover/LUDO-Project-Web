@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo-removebg-preview.png">
+    <title>LudoVerse</title>
+    <link rel="stylesheet" href="fallingStars.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="star-container">
+      <div class="header">
+        <img class="logo" src="logo.png" alt="" />
+      </div>
+      <div class="main-content-wrapper">
+        <div class="score-board">
+          <p class="heading">Score<br />Board</p>
+          <hr />
+          <table class="scores-table">
+            <tr>
+              <td style="color: #4d4d4d">
+                <span class="red-font">Red</span>
+                <br />
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+              </td>
+              <td class="red-font">0</td>
+            </tr>
+            <tr>
+              <td style="color: #4d4d4d">
+                <span class="green-font">Green</span>
+                <br />
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+              </td>
+              <td class="green-font">0</td>
+            </tr>
+            <tr>
+              <td style="color: #4d4d4d">
+                <span class="yellow-font">Yellow</span>
+                <br />
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+              </td>
+              <td class="yellow-font">0</td>
+            </tr>
+            <tr>
+              <td style="color: #4d4d4d">
+                <span class="blue-font">Blue</span>
+                <br />
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+                <i class="fa-solid fa-chess-pawn"></i>
+              </td>
+              <td class="blue-font">0</td>
+            </tr>
+          </table>
+        </div>
+        <div class="board">
+          <div class="color-container red-color-container">
+            <div class="red-start-cell start-cell red-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="red-start-cell start-cell red-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="red-start-cell start-cell red-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="red-start-cell start-cell red-pawn"><i class="fa-solid fa-circle"></i></div>
+          </div>
+          <div class="cells-grid-vertical">
+            <div class="cell"></div>
+            <div class="cell arrow-green"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell g"></div>
+            <div class="cell g"></div>
+            <div class="cell safe-cell-symbol"></div>
+            <div class="cell g"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell g"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell g"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell g"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="color-container green-color-container">
+            <div class="green-start-cell start-cell green-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="green-start-cell start-cell green-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="green-start-cell start-cell green-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="green-start-cell start-cell green-pawn"><i class="fa-solid fa-circle"></i></div>
+          </div>
+          <div class="cells-grid-horizontal">
+            <div class="cell"></div>
+            <div class="cell r"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell arrow-red"></div>
+            <div class="cell r"></div>
+            <div class="cell r"></div>
+            <div class="cell r"></div>
+            <div class="cell r"></div>
+            <div class="cell r"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell safe-cell-symbol"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="finish-box"></div>
+          <div class="cells-grid-horizontal">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell safe-cell-symbol"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell y"></div>
+            <div class="cell y"></div>
+            <div class="cell y"></div>
+            <div class="cell y"></div>
+            <div class="cell y"></div>
+            <div class="cell arrow-yellow"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell y"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="color-container blue-color-container">
+            <div class="blue-start-cell start-cell blue-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="blue-start-cell start-cell blue-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="blue-start-cell start-cell blue-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="blue-start-cell start-cell blue-pawn"><i class="fa-solid fa-circle"></i></div>
+          </div>
+          <div class="cells-grid-vertical">
+            <div class="cell"></div>
+            <div class="cell b"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell b"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell b"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell b"></div>
+            <div class="cell safe-cell-symbol"></div>
+            <div class="cell b"></div>
+            <div class="cell b"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell arrow-blue"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="color-container yellow-color-container">
+            <div class="yellow-start-cell start-cell yellow-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="yellow-start-cell start-cell yellow-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="yellow-start-cell start-cell yellow-pawn"><i class="fa-solid fa-circle"></i></div>
+            <div class="yellow-start-cell start-cell yellow-pawn"><i class="fa-solid fa-circle"></i></div>
+          </div>
+        </div>
+        <div class="dice-wrapper">
+          <div id="turn-specifier-div" class="red-font">
+            <span id="turn-color-specifier">Red</span>'s turn<br />
+            <i class="fa-solid fa-chess-pawn"></i>
+          </div>
+          <div class="dice-container"></div>
+          <div class="display-turn-num">1</div>
+          <div class="play-button-div">
+            <button class="play-button">Play !</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="fallingStars.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
