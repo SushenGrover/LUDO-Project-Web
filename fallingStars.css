@@ -29,7 +29,7 @@
 /* Styling for individual stars */
 .star {
   position: absolute;
-  font-size: 1.5rem; /* Size of the star */
+  font-size: 1rem; /* Size of the star */
   color: rgb(255, 207, 252);
   animation: fallingStar linear infinite;
   animation-duration: var(--random-duration);
